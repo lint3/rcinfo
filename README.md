@@ -5,7 +5,7 @@
 - [Basics](basics.md)
     - [Systems Overview](systems/systems_overview.md)
 - [Remote Control](systems/rc_control.md)
-- [FP](fpv/fpv_overview.md)
+- [FPV](fpv/fpv_overview.md)
 - Fixed Wing
     - Airframe
     - Electronics

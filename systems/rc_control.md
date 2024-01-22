@@ -8,9 +8,11 @@ flowchart TB
 	  C -- ?? --> D[Transmitter module]
 	end
 
-  D --> E[Antenna] -. Radio waves ...-> F1[RX Antenna] --> G1
+  D --> E[Antenna] -.-> RF ...-> F1[RX Antenna] --> G1
 
-  E -. Radio waves ...-> F2[RX Antenna] --> G2
+ RF[Radio waves] ...-> F2[RX Antenna] --> G2
+
+
 
 
   subgraph Aircraft with FC
@@ -23,4 +25,7 @@ flowchart TB
 		G2[RX Module] -- PWM --> J2[Servos]
 		G2 -- PWM or Dshot --> I2[Motor Controllers]
 	end
+
+
+click RF "#radio"
 ```
