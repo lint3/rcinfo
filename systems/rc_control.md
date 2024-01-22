@@ -27,7 +27,7 @@ flowchart TB
 	end
 
 
-click RF "#radio"
+click RF "rc_control.md#radio"
 ```
 
 
