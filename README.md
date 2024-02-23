@@ -1,8 +1,6 @@
 # RC Hobby Technical Info
 
-## Index
-
-- [Basics](basics.md)
+- [Absolute Basics](basics.md)
     - [Systems Overview](systems/systems_overview.md)
 - [Remote Control](systems/rc_control.md)
 - [FPV](fpv/fpv_overview.md)
